@@ -11,7 +11,7 @@ fun array(word:String, word1:String,word2:String,word3:String){
     println(result.contentToString())
 }
 fun arrangement(){
-    var cities=arrayOf("harare","mumbai","dodoma","jakarta")
+    var cities=arrayOf("kampala","mbarara","kasese","fortportal")
     var sorted=cities.sortedArray()
     var arranged=sorted.forEach { city->
         println(city.capitalize())
